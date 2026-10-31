@@ -32,79 +32,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global data quality and CRM data cleansing software market is valued at approximately **$2.9B–$3.9B** (growing at an estimated 11–17% CAGR toward $4B+). The market exhibits a **hybrid structure**—it is **concentrated at the foundational cloud platform layer** (where mega-vendors like Salesforce, Microsoft, and enterprise MDM providers control core CRM repositories), but **highly fragmented across the specialized cleansing and hygiene layer**, where dozens of point solutions, enrichment engines, and niche deduplication vendors compete without a single "winner-take-all" player dominating cross-platform data hygiene.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Insycle](https://www.insycle.com/)**
-
-  **CRM data management platform** with deduplication, normalization, and enrichment across HubSpot, Salesforce, and other CRMs. **Pricing**: **14-day free trial** (no credit card, up to 500 records); **Starter/Growth/Professional plans** with **20% annual discount**; pricing scales by record count (slider up to 500,000 records); **unlimited users on every plan** . **Free tier**: Trial only—500 records for 14 days. **Best for**: teams wanting record-based pricing with unlimited users—**trade-off**: no permanent free tier; enterprise plans required above 500K records.
-
-
-
-- **[DemandTools](https://www.demandtools.com/)** (Validity)
-
-  **Salesforce data quality management** with deduplication, mass delete, and field cleaning. **Pricing**: **Elements starting at $2.67/month** flat rate per third-party listings; **$11.00** for higher tier . **Free tier**: **No free trial**, no free version per Capterra . **Best for**: Salesforce-native teams wanting established deduplication—**trade-off**: no trial; Elements tier is limited.
-
-
-
-- **[Cloudingo](https://www.cloudingo.com/)**
-
-  **Salesforce deduplication and data quality** platform. **Pricing**: **Annual subscription tiered by record volume**; small deployments (<100K records) **$6,000–$12,000/year**; mid-market (100K–500K) **$12,000–$30,000/year**; sandbox licenses **20–30% of production cost** . **Free tier**: **No free tier**; no trial specified in pricing data. **Best for**: Salesforce teams wanting automated deduplication with predictable record-based scaling—**trade-off**: significant annual commitment; sandbox costs extra.
-
-
-
-- **[Openprise](https://www.openprisetech.com/)**
-
-  **Data orchestration and enrichment** platform for RevOps. **Pricing**: **Professional starts at $35K annually**; **Enterprise** quote-only. **No free tier, no self-serve sign-up**; annual billing only; **unlimited user seats**; metered on records per bot run and API calls per day . **Free tier**: **None**—confirmed no free tier published . **Best for**: mid-to-large enterprises with complex data stacks—**trade-off**: $35K minimum; no self-serve evaluation.
-
-
-
-- **[RingLead](https://www.ringlead.com/)**
-
-  **Data orchestration and deduplication** for Salesforce and marketing automation. **Pricing**: Quote-only; no public pricing. **Free tier**: Not specified. **Best for**: enterprises wanting real-time deduplication at the point of entry—**trade-off**: sales-led pricing.
-
-
-
-- **[ZoomInfo Clean](https://www.zoominfo.com/)**
-
-  **CRM data cleansing and enrichment** within ZoomInfo's platform. **Pricing**: Bundled with ZoomInfo contracts; quote-only. **Free tier**: None. **Best for**: ZoomInfo customers wanting to clean and enrich CRM records with verified data—**trade-off**: requires ZoomInfo subscription.
-
-
-
-- **[Syncari](https://syncari.com/)**
-
-  **Agentic master data management** platform for multi-system data synchronization. **Pricing**: **Proof of Concept one-time $25,000** (3-month minimum, up to 10 connectors); **Enterprise Edition** price upon request with unlimited connectors . **Free tier**: None. **Best for**: enterprises needing governed MDM across SAP and other systems—**trade-off**: $25K minimum for POC; enterprise-only.
-
-
-
-- **[Leadspace](https://www.leadspace.com/)**
-
-  **B2B data platform** with Sidekick Chrome extension for contact/company intelligence. **Pricing**: **Starter: 25 credits/day free**; **Solo: 1,500 credits**; **Pro: 3,500 credits**; **Enterprise custom**. Credits for email reveals (1 credit) and phone reveals (3 credits) . **Free tier**: **Yes—25 credits/day** (Starter). **Best for**: teams wanting free daily data access with paid expansion—**trade-off**: limited free credits; credit-based reveal costs.
-
-
-
-- **[WinPure](https://www.winpure.com/)**
-
-  **Data cleansing and matching software** for lists, databases, and CRMs. **Pricing**: **Starting at $999** for Clean & Match suite (locally installed Windows software) . **Free tier**: **Free demo with live online training** available . **Best for**: teams wanting on-premises data cleansing with fuzzy matching—**trade-off**: Windows-only; locally installed.
-
-
-
-- **[HubSpot Cleaning Tools](https://www.hubspot.com/)**
-
-  **Native and third-party cleaning** within HubSpot ecosystem. **Pricing**: Varies by tool; native properties limited. **Free tier**: Limited native tools. **Best for**: HubSpot users wanting basic cleanup without external platforms—**trade-off**: native capabilities are limited; complex deduplication requires third-party tools or custom scripts.
-
-
+| Product | Company Scale (Valuation / Revenue) | Starting Pricing Tier | Free Tier & Free Trial Limits | Key Focus & Platform Coverage |
+| :--- | :--- | :--- | :--- | :--- |
+| **[HubSpot (Data / Operations Hub)](https://www.hubspot.com/)** | **~$15B–$25B Market Cap** ($3.13B FY25 Revenue) | **$15/seat/month** (Starter, billed annually) / **$720/month** (Professional with bulk deduplication & automated data quality) | **Permanent free tier available**: Unlimited users, default contact/company deduplication at entry (email/domain match), manual deduplication merges; 14-day free trial on paid tiers | Native CRM data quality command center, bulk record merge, automated property formatting, and multi-system data sync |
+| **[ZoomInfo Clean](https://www.zoominfo.com/)** | **~$1.3B–$3.1B Market Cap** ($1.25B FY25 Revenue) | **$14,995/year** (Professional base tier; Clean add-on typically adds $5,000–$20,000/year depending on record volume) | **Permanent free tier (ZoomInfo Lite)**: 10 export credits/month (up to 25/month with contact contribution); Sales-led trial provides 3–7 days with ~5 test credits | B2B contact verification, enterprise CRM record enrichment, deduplication, and automated data standardization |
+| **[DemandTools](https://www.demandtools.com/)** *(Validity)* | **~$100M+ Est. Valuation** (~$40M–$60M Est. Revenue) | **$1,200/year** (Elements tier base package for small business orgs) | **14-day free trial**: Sandbox testing & assessments permitted; live production record merging/export locked until paid license | Bulk Salesforce deduplication, mass data modification, standardized lead routing, and database maintenance |
+| **[RingLead](https://www.ringlead.com/)** *(ZoomInfo)* | **$118M Acquisition Valuation** (Acquired by ZoomInfo) | **$19,200/year** (OperationsOS base annual contract) | **No self-serve free tier**: 7-day sales-assisted pilot / POC trial upon sales engagement | Point-of-entry deduplication, lead-to-account matching, multi-vendor enrichment, and Salesforce/Marketo normalization |
+| **[Openprise](https://www.openprisetech.com/)** | **~$100M Post-Money Valuation** ($15M–$19M Est. Revenue) | **$35,000/year** (Professional Plan, billed annually; unlimited users) | **No free tier & no self-serve trial**: Enterprise interactive demo & custom POC available upon qualification | Enterprise RevOps data orchestration, multi-system CRM/MAP harmonization, lead scoring, and automated field hygiene |
+| **[Leadspace](https://www.leadspace.com/)** | **~$70M–$100M Est. Valuation** ($17M+ Est. Revenue; $102M+ raised) | **$49/month** (Solo Tier; Custom Enterprise tiers) | **Permanent free tier (Starter)**: 25 free credits/day via Sidekick extension for contact email/phone verification | B2B customer data platform (CDP), real-time profile resolution, and CRM record enrichment |
+| **[Syncari](https://syncari.com/)** | **~$62M–$100M Valuation** ($7M Est. Revenue; $28M raised) | **$25,000 one-time** (3-month POC package, up to 10 connectors) | **30-day free trial**: Guided interactive "Test Drive" environment with preloaded sample CRM data sets and connectors | Agentic Master Data Management (MDM), bi-directional CRM state sync, multi-system deduplication, and automated data governance |
+| **[Cloudingo](https://www.cloudingo.com/)** | **~$10M Est. Valuation** ($3M–$7M Est. Revenue; Bootstrapped) | **$2,500/year** (Standard Tier for Salesforce orgs up to 300,000 records) | **10-day free trial**: Includes 25 merge tokens (deduplicate and merge up to 25 duplicate record groups across 1 production & 1 sandbox org) | Salesforce-native deduplication, scheduled automated merge rules, mass update/delete, and ERP/API import hygiene |
+| **[WinPure](https://www.winpure.com/)** | **~$5M Est. Valuation** ($1.2M Est. Revenue; Bootstrapped) | **$999 one-time / perpetual** (Clean & Match Suite license) | **30-day free trial**: Full software evaluation download on local environment; DataMatching API evaluation has capped records per matching operation | Windows on-premise data cleansing, deduplication, AI/fuzzy matching algorithms, and address verification |
+| **[Insycle](https://www.insycle.com/)** | **~$2M–$4M Est. Valuation** ($435K Est. ARR; Bootstrapped) | **$100/month** ($1,200 billed annually for Starter Tier up to 500,000 records; unlimited users) | **14-day free trial**: Up to 500 records analyzed/manipulated, full feature access, no credit card required | Multi-CRM record matching, cross-object deduplication, automated field formatting, and CSV cleanup for HubSpot & Salesforce |
 
 ## Open-Source GitHub Projects
 

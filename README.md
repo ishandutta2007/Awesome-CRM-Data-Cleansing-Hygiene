@@ -61,9 +61,9 @@ The global data quality and CRM data cleansing software market is valued at appr
 
 ## 💻 Open-Source GitHub Projects
 
-Curated open-source projects, libraries, and frameworks for self-hosted CRM data hygiene, fuzzy matching, and scalable deduplication. Sorted in descending order by GitHub stars:
+Curated open-source projects, libraries, and frameworks for self-hosted CRM data hygiene, fuzzy matching, and scalable deduplication. Sorted in descending order by GitHub_Stars:
 
-| Repository & Tool | ⭐ GitHub Stars Badge | 🛠️ Tech Stack & Architecture | 🎯 Primary CRM & Data Hygiene Use Case |
+| Repository & Tool | ⭐ GitHub_Stars_Badge | 🛠️ Tech Stack & Architecture | 🎯 Primary CRM & Data Hygiene Use Case |
 | :--- | :--- | :--- | :--- |
 | **[OpenRefine](https://github.com/OpenRefine/OpenRefine)** | [![OpenRefine Stars](https://img.shields.io/github/stars/OpenRefine/OpenRefine?style=social&color=white)](https://github.com/OpenRefine/OpenRefine/stargazers) | Java, Web UI | 🧼 The gold-standard interactive tool for exploring and cleaning messy tabular data. Features clustering algorithms (key collision, fingerprint, Levenshtein, Jaro-Winkler) to merge duplicate names and company records with visual confirmation. |
 | **[Cleanlab](https://github.com/cleanlab/cleanlab)** | [![Cleanlab Stars](https://img.shields.io/github/stars/cleanlab/cleanlab?style=social&color=white)](https://github.com/cleanlab/cleanlab/stargazers) | Python, PyTorch | 🤖 Data-centric AI package to automatically detect errors, outliers, label noise, and corrupted values in structured CRM datasets and contact tables using confident learning algorithms. |
@@ -100,7 +100,7 @@ Contributions are warmly encouraged! To propose a new SaaS platform, open-source
 
 1. 🍴 Fork this repository.
 2. 🌿 Create a descriptive feature branch (`git checkout -b feature/add-new-tool`).
-3. 📝 Add your entry adhering to the existing tabular format (include specific pricing, free limits, or GitHub star badges).
+3. 📝 Add your entry adhering to the existing tabular format (include specific pricing, free limits, or GitHub Stars_Badges).
 4. 🚀 Open a Pull Request with a brief summary of the project's utility for CRM data quality.
 
 ---
